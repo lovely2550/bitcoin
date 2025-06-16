@@ -4,7 +4,7 @@
 คำขอรวมที่ไม่มีเหตุผลและการปรับปรุงที่ชัดเจนอาจถูกปิดทันที
 
 คำขอรวมที่เกี่ยวกับ GUI ควรเปิดใน
-https://github.com/bitcoin-core/gui
+https://github.com/lovely2550/bitcoin
 ก่อน ดูรายละเอียดใน CONTRIBUTING.md
 -->
 
