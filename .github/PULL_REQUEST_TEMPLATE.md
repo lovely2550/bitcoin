@@ -1,43 +1,47 @@
 <!--
-*** Please remove the following help text before submitting: ***
+*** กรุณาลบข้อความช่วยเหลือต่อไปนี้ก่อนส่งคำขอรวม (Pull Request): ***
 
-Pull requests without a rationale and clear improvement may be closed
-immediately.
+คำขอรวมที่ไม่มีเหตุผลและการปรับปรุงที่ชัดเจนอาจถูกปิดทันที
 
-GUI-related pull requests should be opened against
+คำขอรวมที่เกี่ยวกับ GUI ควรเปิดใน
 https://github.com/bitcoin-core/gui
-first. See CONTRIBUTING.md
+ก่อน ดูรายละเอียดใน CONTRIBUTING.md
 -->
 
 <!--
-Please provide clear motivation for your patch and explain how it improves
-Bitcoin Core user experience or Bitcoin Core developer experience
-significantly:
+กรุณาให้เหตุผลที่ชัดเจนสำหรับแพตช์ของคุณและอธิบายว่ามันช่วย
+ปรับปรุงประสบการณ์ของผู้ใช้ Bitcoin Core หรือ
+ประสบการณ์ของนักพัฒนา Bitcoin Core อย่างมีนัยสำคัญอย่างไร:
 
-* Any test improvements or new tests that improve coverage are always welcome.
-* All other changes should have accompanying unit tests (see `src/test/`) or
-  functional tests (see `test/`). Contributors should note which tests cover
-  modified code. If no tests exist for a region of modified code, new tests
-  should accompany the change.
-* Bug fixes are most welcome when they come with steps to reproduce or an
-  explanation of the potential issue as well as reasoning for the way the bug
-  was fixed.
-* Features are welcome, but might be rejected due to design or scope issues.
-  If a feature is based on a lot of dependencies, contributors should first
-  consider building the system outside of Bitcoin Core, if possible.
-* Refactoring changes are only accepted if they are required for a feature or
-  bug fix or otherwise improve developer experience significantly. For example,
-  most "code style" refactoring changes require a thorough explanation why they
-  are useful, what downsides they have and why they *significantly* improve
-  developer experience or avoid serious programming bugs. Note that code style
-  is often a subjective matter. Unless they are explicitly mentioned to be
-  preferred in the [developer notes](/doc/developer-notes.md), stylistic code
-  changes are usually rejected.
+* ยินดีต้อนรับการปรับปรุงหรือเพิ่มชุดทดสอบที่ช่วยเพิ่มความครอบคลุมเสมอ
+* การเปลี่ยนแปลงอื่น ๆ ควรมาพร้อมกับชุดทดสอบหน่วย (ดูใน `src/test/`) หรือ
+  ชุดทดสอบฟังก์ชัน (ดูใน `test/`) ผู้ร่วมพัฒนาควรระบุว่าชุดทดสอบใดครอบคลุม
+  โค้ดที่เปลี่ยนแปลง หากไม่มีชุดทดสอบสำหรับส่วนของโค้ดที่เปลี่ยนแปลง
+  ชุดทดสอบใหม่ควรมาพร้อมกับการเปลี่ยนแปลงนั้น
+* ยินดีต้อนรับการแก้ไขบั๊กที่มาพร้อมกับขั้นตอนการทำซ้ำหรือ
+  คำอธิบายปัญหาที่อาจเกิดขึ้น รวมถึงเหตุผลของวิธีการแก้ไขบั๊กนั้น
+* ฟีเจอร์ใหม่เป็นที่ต้อนรับ แต่บางครั้งอาจถูกปฏิเสธ
+  เนื่องจากข้อจำกัดด้านการออกแบบหรือขอบเขต
+  หากฟีเจอร์นั้นขึ้นกับหลายระบบ ผู้ร่วมพัฒนาควรพิจารณาสร้างระบบนั้น
+  แยกนอก Bitcoin Core ก่อน หากเป็นไปได้
+* การปรับปรุงโค้ดแบบรีแฟกเตอร์จะรับเฉพาะเมื่อจำเป็นสำหรับฟีเจอร์
+  หรือการแก้บั๊ก หรือช่วยปรับปรุงประสบการณ์นักพัฒนาอย่างมาก
+  ตัวอย่างเช่น การเปลี่ยนแปลง "รูปแบบโค้ด" ส่วนใหญ่ต้องมีคำอธิบายอย่างละเอียด
+  ว่ามีประโยชน์อย่างไร มีข้อเสียอะไร และช่วยปรับปรุงประสบการณ์นักพัฒนา
+  อย่างมีนัยสำคัญอย่างไร หรือช่วยหลีกเลี่ยงบั๊กร้ายแรงได้อย่างไร
+  โปรดทราบว่ารูปแบบโค้ดเป็นเรื่องที่ขึ้นกับความเห็นส่วนตัว
+  เว้นแต่จะระบุไว้อย่างชัดเจนใน [developer notes](/doc/developer-notes.md)
+  การเปลี่ยนแปลงสไตล์โค้ดมักถูกปฏิเสธ
 -->
 
 <!--
-Bitcoin Core has a thorough review process and even the most trivial change
-needs to pass a lot of eyes and requires non-zero or even substantial time
-effort to review. There is a huge lack of active reviewers on the project, so
-patches often sit for a long time.
+Bitcoin Core มีขั้นตอนการตรวจสอบอย่างละเอียดและแม้แต่การเปลี่ยนแปลงเล็กน้อย
+ก็ต้องผ่านการตรวจสอบจากหลายฝ่ายและใช้เวลาพอสมควร
+มีผู้ตรวจสอบที่พร้อมทำงานน้อยมากในโปรเจกต์นี้
+ทำให้แพตช์หลายชิ้นต้องรอเป็นเวลานาน
+-->
+
+<!--
+ไฟล์นี้เป็นของผม กระเป๋าผม
+Bitcoin address: bc1qpwvupaqd9zw75tsr7hdnselhhf7kyjr3vqtpxw
 -->
